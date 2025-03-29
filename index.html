@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +22,7 @@
         <!-- c) Фото (или любую картинку из интернета). Не забудь добавить описание на случай, если изображение не загрузится -->
          <h1> Rusko Alexander</h1>
          <p>Работаю в финляндии  спецыолист в строительной сфере, люблю путишествовать и изучать что то новое.</p>
-         <img src="https://fs.tonkosti.ru/sized/c1600x600/3k/rr/3krr9eg4cq0wos4ksgkk84wo4.jpg" alt="">
+         <img src="https://fs.tonkosti.ru/sized/c1600x600/3k/rr/3krr9eg4cq0wos4ksgkk84wo4.jpg" alt="Горы">
     </section>
 
     <section data-cy="hw1-section-about-pre">
@@ -94,29 +94,31 @@
                         - В первой строке ячейки заголовков, в остальных обычные ячейки
                         - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
                         - В последнем ряду первая ячейка должна занимать 2 столбца (как должно выглядеть - смотри образец). Таблицу можно заполнять любыми данными -->
-                        <table>
+                        <table data-cy="hw-about-table-pre" border="">
+
                             <tr>
-                                <th>п/</th>
+                                <th>п/п</th>
                                 <th>Наименование</th>
                                 <th>Количество</th>
                             </tr>
+
                             <tr>
                                 <td>1</td>
-                                <th>Монитор</th>
+                                <td>Монитор</td>
                                 <td>2</td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <th>Клавитура</th>
+                                <td>Клавитура</td>
                                 <td>1</td>
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <th>Мышь</th>
+                                <td>Мышь</td>
                                 <td>1</td>
                             </tr>
                             <tr>
-                                <th>Итого:</th>
+                                <td colspan="2" style="text"> Итог:</td>
                                 <td>4</td>
                             </tr>
                         </table>
